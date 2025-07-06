@@ -1,4 +1,6 @@
-  const Token="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";
+
+// use your own github api token to use this web app
+const Token="";
 
 export async function fetchUserData(username) {
     if(username.trim() === '') {
