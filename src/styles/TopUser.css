@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.topuserbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.topuserbox>h1{
+ color: #ffffff;
+   font-size: 50px;
+    font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px 40px;
+}
+
+.topuserimgcont{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topusercontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 300px;
+}
+#topuserimage{
+    border-radius: 80px;
+    margin-right: 30px;
+
+}
+
+.leftcont{
+    display: flex;
+    flex-direction: column;
+     
+        gap: 30px;
+}
+
+.leftcont>h1{
+     color: #5565E8;
+   font-size: 30px;
+    font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.rightcont{
+      display: flex;
+    flex-direction: column;
+   
+        gap: 47px;
+}
+
+.bottomleft{
+    display: flex;
+}
+.topuserimgcont{
+    width: 100%;
+    margin-right: 219px;
+    margin-left: 50px;
+    height: 600px;
+        margin-top: -28px;
+    overflow-y: scroll;
+   
+}
